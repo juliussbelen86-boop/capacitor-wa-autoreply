@@ -1,0 +1,1 @@
+{"version":3,"file":"plugin.js","sources":["esm/index.js"],"sourcesContent":["import { registerPlugin } from '@capacitor/core';\nconst WAAutoReply = registerPlugin('WAAutoReply');\nexport * from './definitions';\nexport { WAAutoReply };\n//# sourceMappingURL=index.js.map"],"names":["registerPlugin"],"mappings":";;;AACK,OAAC,WAAW,GAAGA,mBAAc,CAAC,aAAa;;;;;;;;;;"}

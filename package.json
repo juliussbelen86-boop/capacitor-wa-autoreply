@@ -1,0 +1,56 @@
+{
+  "name": "capacitor-wa-autoreply",
+  "version": "1.0.0",
+  "description": "Capacitor plugin for WhatsApp auto-reply via Android NotificationListenerService + RemoteInput. Read incoming messages, reply automatically, and run in background without opening WhatsApp.",
+  "main": "dist/plugin.cjs.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "unpkg": "dist/plugin.js",
+  "files": [
+    "android/src/main/",
+    "android/build.gradle",
+    "android/src/main/AndroidManifest.xml",
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "Alteri Team <juliussbelen86@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliussbelen86-boop/capacitor-wa-autoreply"
+  },
+  "bugs": {
+    "url": "https://github.com/juliussbelen86-boop/capacitor-wa-autoreply/issues"
+  },
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "whatsapp",
+    "auto-reply",
+    "notification-listener",
+    "android",
+    "remote-input",
+    "background",
+    "messaging",
+    "chatbot"
+  ],
+  "capacitor": {
+    "android": {
+      "src": "android"
+    }
+  },
+  "scripts": {
+    "build": "tsc && rollup -c rollup.config.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@capacitor/core": "^6.0.0",
+    "typescript": "^5.0.0",
+    "rollup": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0"
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=6.0.0"
+  }
+}
