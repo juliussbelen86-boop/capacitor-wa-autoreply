@@ -216,8 +216,8 @@ const { contactos, total } = await WAAutoReply.getContacts();
 
 Built with ❤️ by the team behind **[Alteri](https://github.com/juliussbelen86-boop)**.
 
-🚀 **UPDATE:** We have officially started our **Closed Beta** (Friends & Family stage) for our next-gen AI product! 
-Stay tuned for the Public Beta announcement coming very soon.
+> [!IMPORTANT]
+> **Status:** Closed Beta in progress with selected testers. Public Beta coming soon! Stay tuned.
 
 ## License
 
