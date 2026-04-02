@@ -214,7 +214,10 @@ const { contactos, total } = await WAAutoReply.getContacts();
 
 ## Credits
 
-Built by the team behind **[Alteri](https://github.com/juliussbelen86-boop)** — your AI-powered WhatsApp alter ego.
+Built with ❤️ by the team behind **[Alteri](https://github.com/juliussbelen86-boop)**.
+
+🚀 **UPDATE:** We have officially started our **Closed Beta** (Friends & Family stage) for our next-gen AI product! 
+Stay tuned for the Public Beta announcement coming very soon.
 
 ## License
 
